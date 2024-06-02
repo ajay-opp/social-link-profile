@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+body{
+    font-size: 14px ;
+    background: hsl(0, 0%, 8%);
+    color:  hsl(0, 0%, 100%);
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.card{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   background: hsl(0, 0%, 12%) ;
+   padding: 15px;
+   margin: 20px auto;
+   margin-top: 0px;
+   max-width: 375px;
+   border-radius: 10px;
+
+}
+.card-img{
+    margin-bottom: 20px;
+}
+img{
+border-radius: 50%;
+width: 100px;
+height: 100px;
+}
+h1{
+    margin: 10px;
+}
+.addr{
+    color:hsl(75, 94%, 57%);
+    font-size: 18px;
+    margin: 5px;
+}
+p{
+   margin: 15px; 
+}
+.card-link{
+    background: hsl(0, 0%, 20%);
+    width: 100%;
+    margin: 5px;
+    padding: 10px;
+    padding-right: 50px;
+    text-align: center;
+    border-radius: 7px;
+}
+.card-link:hover{
+    background:hsl(75, 94%, 57%);
+    color:hsl(0, 0%, 8%) ;
+    cursor: pointer;
+}
+
